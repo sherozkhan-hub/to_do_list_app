@@ -1,0 +1,81 @@
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .search{
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+  }
+  
+  form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2rem;
+    margin-right: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  li span {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  li button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 2rem;
+  }
+  
